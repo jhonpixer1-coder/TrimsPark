@@ -1,12 +1,12 @@
 export const products = [
-  { name: "Woven labels", note: "Taffeta and satin, woven on Muller looms", visual: "woven", icon: "tag" },
-  { name: "Printed labels", note: "Paper or satin ribbon, up to 6/2 colours", visual: "printed", icon: "print" },
-  { name: "Hangtags & photo cards", note: "Offset printed on Heidelberg, inlay cards too", visual: "hangtag", icon: "tag" },
-  { name: "Polyester buttons", note: "8mm to 37.5mm, chalk, pearl, horn, shell, logo or plain", visual: "buttons", icon: "button" },
-  { name: "Tapes & elastic", note: "Drawstring, twill tape, rib tape, elastic, jacket elastic", visual: "tapes", icon: "roll" },
-  { name: "Heat seal & lock tags", note: "Heat seal labels, lock tags, gum tape", visual: "lock", icon: "lock" },
-  { name: "Stickers", note: "Barcode, size, poly and carton stickers", visual: "stickers", icon: "sticker" },
-  { name: "Poly bags & packing", note: "Poly bags, shirt and boxer packing items", visual: "bags", icon: "box" },
+  { name: "Drawsting", note: "Taffeta and satin, woven on Muller looms", visual: "woven", icon: "tag" },
+  { name: "Cilicon Drawstring", note: "Paper or satin ribbon, up to 6/2 colours", visual: "printed", icon: "print" },
+  { name: "Drawcord", note: "Offset printed on Heidelberg, inlay cards too", visual: "hangtag", icon: "tag" },
+  { name: "Twile tape", note: "8mm to 37.5mm, chalk, pearl, horn, shell, logo or plain", visual: "buttons", icon: "button" },
+  { name: "Stopper", note: "Drawstring, twill tape, rib tape, elastic, jacket elastic", visual: "tapes", icon: "roll" },
+  { name: "Any metal item", note: "Heat seal labels, lock tags, gum tape", visual: "lock", icon: "lock" },
+  { name: "Snap button", note: "Barcode, size, poly and carton stickers", visual: "stickers", icon: "sticker" },
+  { name: "Eyelet", note: "Poly bags, shirt and boxer packing items", visual: "bags", icon: "box" },
 ];
 
 export const leadTimes = [
@@ -34,13 +34,13 @@ export const buyerReasons = [
   "Capacity growing with buyer demand",
 ];
 
-export const buyers = ["Auchan", "YM Inc / Urbanica", "Max Dubai", "Nordic Wear", "Champion", "Gisela", "Primark", "Pull&Bear", "Adams", "Cross Jeans", "Challenge", "Cool Bike"];
+export const buyers = ["Hurley", "YM/Inc", "JD Williams", "Next", "Cross Plus", "KM Clothing", "Yagi", "Nordic", "Bel Junior", "Adams", "Yongsu", "Life Line", "Piazza Italia"];
 export const factories = ["Urmi Group", "Entrust Group", "Sisal Knit Composite", "TSR Apparels", "S&P Bangla", "TPO Textiles", "KAS Knitwear", "Cotton Club (BD)", "Tex Merchant (BD)"];
 
 export const contacts = [
   { name: "Mahedi Hasan", role: "Managing Director", tel: "01717-522802" },
-  { name: "Ekramul Hossain", role: "Contact person", tel: "01713-706007" },
-  { name: "Tanzimul Islam", role: "Contact person", tel: "01926-078767" },
+  // { name: "Ekramul Hossain", role: "Contact person", tel: "01713-706007" },
+  { name: "Tanzimul Islam", role: "Manager ", tel: "01926-078767" },
 ];
 
 export const sizes = ["XS", "S", "M", "L", "XL", "XXL"];

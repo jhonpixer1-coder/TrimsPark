@@ -20,7 +20,7 @@ export default function ClientsSection() {
           </div>
           <ul className="chips">{buyers.map((buyer) => <li key={buyer}>{buyer}</li>)}</ul>
         </div>
-        <div className="client-group">
+        {/* <div className="client-group">
           <div className="client-group-heading">
             <span className="client-group-icon" aria-hidden="true">
               <svg viewBox="0 0 32 32"><path d="M4 27V14l7 4v-5l7 4V7h5v20M3 27h26" /><path d="M20 11h3m-3 5h3M9 22h2m4 0h2" /></svg>
@@ -29,7 +29,7 @@ export default function ClientsSection() {
             <h3>Garment factories</h3>
           </div>
           <ul className="chips alt">{factories.map((factory) => <li key={factory}>{factory}</li>)}</ul>
-        </div>
+        </div> */}
       </div>
     </section>
   );
