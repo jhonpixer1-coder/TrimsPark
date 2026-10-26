@@ -31,7 +31,7 @@ export default function ContactSection() {
             <span className="contact-detail-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m4 7 8 6 8-6" /></svg>
             </span>
-            <span><a href="mailto:info@trimspark.com">info@trimspark.com</a><span className="contact-separator">·</span><a href="https://www.trimspark.com">www.trimspark.com</a></span>
+            <span><a href="mailto:trimspark.2021@gmail.com">trimspark.2021@gmail.com</a><span className="contact-separator">·</span><a href="https://www.trimspark.com">www.trimspark.com</a></span>
           </p>
           <p className="contact-detail">
             <span className="contact-detail-icon" aria-hidden="true">
