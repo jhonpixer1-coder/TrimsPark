@@ -1,12 +1,60 @@
 export const products = [
-  { name: "Drawsting", note: "Taffeta and satin, woven on Muller looms", visual: "woven", icon: "tag" },
-  { name: "Cilicon Drawstring", note: "Paper or satin ribbon, up to 6/2 colours", visual: "printed", icon: "print" },
-  { name: "Drawcord", note: "Offset printed on Heidelberg, inlay cards too", visual: "hangtag", icon: "tag" },
-  { name: "Twile tape", note: "8mm to 37.5mm, chalk, pearl, horn, shell, logo or plain", visual: "buttons", icon: "button" },
-  { name: "Stopper", note: "Drawstring, twill tape, rib tape, elastic, jacket elastic", visual: "tapes", icon: "roll" },
-  { name: "Any metal item", note: "Heat seal labels, lock tags, gum tape", visual: "lock", icon: "lock" },
-  { name: "Snap button", note: "Barcode, size, poly and carton stickers", visual: "stickers", icon: "sticker" },
-  { name: "Eyelet", note: "Poly bags, shirt and boxer packing items", visual: "bags", icon: "box" },
+  {
+    name: "Bungee Cord",
+    note: "Flexible elastic cords in multiple colours",
+    image: "/images/products/BUNGEE CORD.png",
+    visual: "cord",
+    icon: "tag",
+  },
+  {
+    name: "Zip Poly",
+    note: "Transparent zip-lock poly bags in multiple sizes",
+    image: "/images/products/ZIP POLY.png",
+    visual: "bags",
+    icon: "box",
+  },
+  {
+    name: "Twill Tape",
+    note: "Woven tapes in multiple colours and widths",
+    image: "/images/products/TWILL TAPE.png",
+    visual: "tapes",
+    icon: "tag",
+  },
+  {
+    name: "All Kind of Stopper",
+    note: "Plastic and metal cord stoppers in different styles",
+    image: "/images/products/ALL KIND OF STOPPER.png",
+    visual: "stopper",
+    icon: "lock",
+  },
+  {
+    name: "Silicone Drawsting",
+    note: "Silicone-dipped drawstrings in assorted colours",
+    image: "/images/products/SILICONE DRAWSTING.png",
+    visual: "drawstring",
+    icon: "tag",
+  },
+  {
+    name: "Rip Tape",
+    note: "Durable woven tapes for garment applications",
+    image: "/images/products/RIP TAPE.png",
+    visual: "tapes",
+    icon: "tag",
+  },
+  {
+    name: "Paper Bord",
+    note: "Paperboard sheets and garment packaging materials",
+    image: "/images/products/PAPER BORD.png",
+    visual: "paper",
+    icon: "box",
+  },
+  {
+    name: "Metal Eylet",
+    note: "Metal eyelets and rings for apparel and accessories",
+    image: "/images/products/METAL EYLET.png",
+    visual: "eyelet",
+    icon: "button",
+  },
 ];
 
 export const leadTimes = [

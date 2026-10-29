@@ -71,7 +71,11 @@ export default function ProductsSection() {
         {products.map((product) => (
           <a className="tagcard" href="#contact" key={product.name} aria-label={`${product.name}: request a quote`}>
             <span className="hole"><ProductIcon type={product.icon} /></span>
-            <ProductArtwork type={product.visual} />
+            <img
+              src={product.image}
+              alt={product.name}
+              className="product-image"
+            />
             <h3>{product.name}</h3>
             <p>{product.note}</p>
             <span className="card-arrow" aria-hidden="true">→</span>
