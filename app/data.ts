@@ -86,7 +86,7 @@ export const buyers = ["Hurley", "YM/Inc", "JD Williams", "Next", "Cross Plus", 
 export const factories = ["Urmi Group", "Entrust Group", "Sisal Knit Composite", "TSR Apparels", "S&P Bangla", "TPO Textiles", "KAS Knitwear", "Cotton Club (BD)", "Tex Merchant (BD)"];
 
 export const contacts = [
-  { name: "Mahedi Hasan", role: "Managing Director", tel: "01717-522802" },
+  { name: "Mahedi Hasan", role: "Propreitor", tel: "01717-522802" },
   // { name: "Ekramul Hossain", role: "Contact person", tel: "01713-706007" },
   { name: "Tanzimul Islam", role: "Manager ", tel: "01926-078767" },
 ];
